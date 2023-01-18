@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+body{
+    background-color: black;
+}
+
+.box-container{
+   
+    margin: 20px 30px;
+}
+
+.box{
+    background-color: white;
+    height: 450px;
+    max-width: 350px;
+
+}
+
+.box:nth-child(n+10){
+    display: none;
+}
+
+.box-img{
+    height:250px;
+    width: 100%;
+}
+
+.box-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box-text{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.conta-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.h1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 40px  100px;
+    font-family: sans-serif;
+}
+
+.h1-container p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+svg{
+    fill: white;
+    height: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #101695;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(154, 3, 255);
+  }
+
+
+  .text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    padding: 15px;
+    margin:30px 0;
+    background-color: #000;
+    border:1px solid #fff;
+    color: #fff;
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    border:1px solid rgb(61, 180, 248);
+    transition:all 0.5s ease;
+    box-shadow: 0px 0px 15px 5px rgba(40,170,200,1);
+}
